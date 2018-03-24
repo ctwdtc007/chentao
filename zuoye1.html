@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+
+    <style>
+        .db{
+
+            height:200px;
+            background-color:#6394C6 ;
+
+        }
+        .dbzi{
+
+
+            width: 980px;
+            margin: 0 auto;
+            height: 40px;
+            line-height: 40px;
+            text-align: right;
+            color: #e4f2fe;
+
+
+        }
+        .dbzi a:link{color: #e4f2fe; text-decoration: none}
+        .dbzi a:hover{text-decoration: underline; color:#e4f2fe}
+        .dbzi a{
+
+            font-size: 14px;
+            font-family: Tahoma, Helvetica, Arial, '’Microsoft YaHei’', 微软雅黑, SimSun, sans-serif;
+            margin-left:10px;
+            margin-right:10px;
+            color: #e4f2fe;
+        }
+        .tu{
+
+            width: 980px;
+            margin: 0 auto;
+            height: 50px;
+            padding-top: 50px;
+            background: url("./yz_banner_bg.png") no-repeat left top;
+            line-height: 50px;
+            text-align: right;
+            color: #e4f2fe;
+        }
+        .tu a:link{color: #e4f2fe; text-decoration: none}
+        .tu a:hover{text-decoration: underline; color:#e4f2fe}
+        .tu a{
+
+            font-size: 14px;
+            font-family: Tahoma, Helvetica, Arial, '’Microsoft YaHei’', 微软雅黑, SimSun, sans-serif;
+            margin-left:10px;
+            margin-right:10px;
+            color: #e4f2fe;
+        }
+        .zhongjian{
+
+
+            height:762px;
+            background-color: #EFF7F7;
+
+        }
+        .zh{
+
+            height:30px;
+            text-align: center;
+            margin-top:20px;
+            font-size: 14px;
+            font-family: Tahoma, Helvetica, Arial, '’Microsoft YaHei’', 微软雅黑, SimSun, sans-serif;
+
+        }
+        .zh a:link{color: black; text-decoration: none}
+        .zh a:hover{text-decoration: underline; color:red}
+        .zh a{
+
+            margin-left:20px;
+            margin-right:10px;
+
+
+        }
+        .biaodan{
+
+            width: 980px;
+            margin: -60px auto 0 auto;
+            padding-bottom: 20px;
+            border: 10px solid #EFF3F6;
+            box-shadow: 0 0 5px #999;
+            background: #FFF;
+            position:relative;
+            height:750px;
+            top:-812px;
+
+        }
+        .t{
+
+            position: relative;
+            width: 800px;
+            height: 60px;
+            margin: 0 auto;
+            border-bottom: 1px solid #EFF3F6;
+            line-height: 60px;
+            text-align: center;
+            font-size: 24px;
+
+        }
+        .t1{
+
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            font-size: 14px;
+            line-height: 40px;
+
+        }
+        .denglu{
+
+            display: inline-block;
+            padding: 3px 15px;
+            margin-left: 8px;
+            border-radius: 4px;
+            background: #6095C1;
+            line-height: 28px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFF;
+            cursor: pointer;
+        }
+        .denglu:link{color: black; text-decoration: none}
+        .denglu:hover{text-decoration: underline; color:#e4f2fe}
+        .biaodandb{
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 14px;
+            font-family: Tahoma, Helvetica, Arial, '’Microsoft YaHei’', 微软雅黑, SimSun, sans-serif;
+        }
+        .biaodandb a{
+
+            color: #06C;
+        }
+        #biaodan2{
+
+            width:800px;
+
+            height:649px;
+            float:left;
+            margin-left:86px;
+
+        }
+
+        .kuang2{
+
+            float:left;
+            width:800px;
+            height:40px;
+
+
+        }
+        .kuang2 input{
+
+            width: 190px;
+            height: 20px;
+            padding: 4px;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            float:left;
+        }
+        form select{
+
+            width: 200px;
+            height: 28px;
+            padding: 3px 0;
+            display: block;
+            margin-top: 2px;
+            line-height: 22px;
+            float:left;
+
+        }
+        form span{
+
+            float:left;
+
+        }
+        .zc{
+
+            margin-top:20px;
+            margin-left:80px;
+            float:left;
+
+        }
+        .ty{
+            margin-top:20px;
+            margin-left:80px;
+            float:left;
+            width:600px;
+
+
+        }
+        .an{
+
+            display: inline-block;
+            width: 150px;
+            height: 40px;
+            vertical-align: middle;
+            border: none;
+            border-radius: 4px;
+            background: #6095C1;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            color: #FFF;
+            cursor: pointer;
+        }
+        .ty a:link{color:#06C; text-decoration: none}
+        .ty a:hover{text-decoration: underline; color:#06C;}
+         .ty a{
+
+             color: #06C;
+         }
+        .zc a:link{color:#333333; text-decoration: none}
+        .zc a:hover{text-decoration: underline; color:red;}
+        .zc a{
+
+           color:#333333;
+    </style>
+
+</head>
+<body>
+    <div class="db">
+        <div class="dbzi">
+            <a href="#">学信网</a>
+            |
+            <a href="#">学信档案</a>
+            |
+            <a href="#">阳光高考</a>
+            |
+            <a href="#">研招网</a>
+            |
+            <a href="#">全国征兵网</a>
+
+
+        </div>
+        <div class="tu">
+
+            <a href="#">首页</a>
+            |
+            <a href="#">联系我们</a>
+
+
+        </div>
+
+
+    </div>
+    <div class="zhongjian"></div>
+    <div class="zh">
+        Copyright 2003-2017
+        <a href="#">学信网</a>　
+        京ICP证030485号
+    </div>
+    <div class="biaodan">
+        <div class="t">
+
+            欢迎注册学信网账号
+            <div class="t1">
+
+                已有学信网账号<a href="#" class="denglu">立即登录</a>
+
+
+            </div>
+
+
+        </div>
+        <div class="biaodan1">
+            <div class="biaodandb">
+
+                注册成功后可以使用中国研究生招生信息网、阳光高考、学信档案、全国征兵网提供的服务。（
+                <a href="#">什么是学信网账号？</a>
+                <a href="#">了解更多</a>）
+
+            </div>
+
+
+
+        </div>
+        <form id="biaodan2" method="post" action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>'>
+            <div class="kuang2">
+                <label><span>&nbsp&nbsp&nbsp&nbsp手机号&nbsp*&nbsp</span> <input type="text" name="sjh"><span>* <?php echo $sjhts;?></span></label>
+            </div>
+            <div class="kuang2">
+                <label><span>&nbsp&nbsp&nbsp&nbsp校验码&nbsp*&nbsp</span> <input type="text" name="xiaoyan" ></label>
+            </div>
+            <div class="kuang2">
+                <label><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp密码&nbsp*&nbsp</span><input type="text" name="mima" ></label>
+            </div>
+            <div class="kuang2">
+                <label><span>密码确认&nbsp*&nbsp</span> <input type="text" name="mima1"></label>
+            </div>
+            <div class="kuang2">
+                <label><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp姓名&nbsp*&nbsp</span> <input type="text" name="user"></label>
+            </div>
+            <div class="kuang2">
+                <label><span>证件类型&nbsp*&nbsp</span>
+                    <select name="select">
+                        <option value="0">居民身份证</option>
+                        <option value="1">港澳台身份证</option>
+                        <option value="2">华侨身份证(无身份证者可填护照号)</option>
+                        <option value="3">其他</option>
+
+
+                    </select>
+                </label>
+            </div>
+            <div class="kuang2">
+                <label><span>证件号码&nbsp*&nbsp</span> <input type="text" name="zhenjian"></label>
+            </div>
+            <div class="kuang2">
+                <label><span>安全邮箱&nbsp*&nbsp</span> <input type="text" name="youxiang"></label>
+            </div>
+            <div class="kuang2">
+                <label>
+                    <span>密保问题1&nbsp&nbsp</span>
+                    <select name="select">
+                        <option value="0">你妈是谁?</option>
+                        <option value="1">你妈是谁?</option>
+                        <option value="2">你妈是谁?</option>
+                        <option value="3">你妈是谁?</option>
+
+
+                    </select>
+
+                </label>
+                <label><span>&nbsp&nbsp答案&nbsp</span><input type="text" ></label>
+            </div>
+            <div class="kuang2">
+                <label>
+                    <span>密保问题2&nbsp&nbsp</span>
+                    <select name="select">
+                        <option value="0">你爸是谁?</option>
+                        <option value="1">你爸是谁?</option>
+                        <option value="2">你爸是谁?</option>
+                        <option value="3">你爸是谁?</option>
+
+
+                    </select>
+
+                </label>
+                <label><span>&nbsp&nbsp答案&nbsp</span><input type="text" ></label>
+            </div>
+            <div class="kuang2">
+                <label>
+                    <span>密保问题3&nbsp&nbsp</span>
+                    <select name="select">
+                        <option value="0">你爷是谁?</option>
+                        <option value="1">你爷是谁?</option>
+                        <option value="2">你爷是谁?</option>
+                        <option value="3">你爷是谁?</option>
+
+
+                    </select>
+
+
+                </label>
+                <label><span>&nbsp&nbsp答案&nbsp</span><input type="text" ></label>
+            </div>
+            <div class="ty">
+
+                <input type="checkbox">我已阅读并同意<a href="#">服务条款</a>
+
+            </div>
+            <div class="zc">
+
+                <input type="submit" value="立即注册" class="an">
+                    <a href="#">忘记密码?</a>
+                        |
+                    <a href="#">忘记用户名?</a>
+
+            </div>
+
+
+
+        </form>
+
+
+
+    </div>
+
+    <?php
+
+    $sjhts="";
+
+
+
+    $xiaoyan=$_POST["xiaoyan"];
+    $mima=$_POST["mima"];
+    $mima1=$_POST["mima1"];
+    $user=$_POST["user"];
+    $zhenjian=$_POST["zhenjian"];
+    $youxiang=$_POST["youxiang"];
+ if ($_SERVER["REQUEST_METHOD"] == "POST"){
+    if(empty($_POST["sjh"]))
+    {
+
+        $sjhts="手机号必填";
+
+    }
+    else{
+
+        $sjh=test_input($_POST["shj"])
+    }
+}
+function test_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+
+
+
+?>
+
+
+
+
+
+</body>
+</html>
